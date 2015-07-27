@@ -1,4 +1,5 @@
-This is docker for xwalkdriver.  **ONLY support real device for now.**
+This is docker for xwalkdriver([crosswalk-web-driver](https://github.com/crosswalk-project/crosswalk-web-driver)).  **ONLY support real device for now.**
+
 
 # Usage:
 
@@ -8,7 +9,7 @@ This is docker for xwalkdriver.  **ONLY support real device for now.**
 
 ```
 # Launch xwalkdriver as remote server
-$ docker run -d -p 9515:9515 -v /dev/bus/usb:/dev/bus/usb --privileged chenhengjie123/xwalkdriver
+$ docker run -d -p 9515:9515 -v /dev/bus/usb:/dev/bus/usb --privileged chenhengjie123/crosswalk-web-driver
 da0014b462a0ecd4b2b7f5f38e7f84d2dc97f2fdb0789ab35d90b876daaa74be
 
 # Optional: get xwalkdriver logs in real time
